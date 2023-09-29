@@ -1,5 +1,6 @@
 import React from 'react';
-import './TopHeader.css'
+import './TopHeader.css';
+import {FaUser, FaYoutube } from 'react-icons/fa';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const TopHeader = () => {
@@ -11,6 +12,7 @@ const TopHeader = () => {
             </div>
             <div className="singUpPart">
                 <button>
+                <FaUser className='userIcon' />
 
                      Sing In
                 </button>
