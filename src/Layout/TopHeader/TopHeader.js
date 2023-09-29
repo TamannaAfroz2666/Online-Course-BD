@@ -1,6 +1,7 @@
 import React from 'react';
 import './TopHeader.css';
-import {FaUser, FaYoutube } from 'react-icons/fa';
+import {FaUser } from 'react-icons/fa';
+// import { Link } from 'react-router-dom';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const TopHeader = () => {
@@ -8,6 +9,7 @@ const TopHeader = () => {
         <div className='container'>
            <div className="topBar">
             <div className="emailPart">
+                {/* <Link to='#'>support@themeix.com</Link> */}
                 <a href="#">support@themeix.com</a>
             </div>
             <div className="singUpPart">
