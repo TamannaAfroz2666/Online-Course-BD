@@ -1,10 +1,23 @@
 import React from 'react';
 import './TopHeader.css'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const TopHeader = () => {
     return (
         <div className='container'>
-            <h1>hello gffjvgdfjg</h1>
+           <div className="topBar">
+            <div className="emailPart">
+                <a href="#">support@themeix.com</a>
+            </div>
+            <div className="singUpPart">
+                <button>
+
+                     Sing In
+                </button>
+               
+
+            </div>
+           </div>
 
             
         </div>
