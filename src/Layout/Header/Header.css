@@ -35,3 +35,9 @@
    
 
 }
+
+
+/* --------------hover start-------------  */
+.navbarMain a:hover {
+    color: rgba(240, 17, 147, 0.959);
+}
