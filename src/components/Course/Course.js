@@ -1,8 +1,11 @@
 import React from 'react';
 import './Course.css'
+import Card from './Card/Card';
+// import { Card } from 'react-bootstrap';
 
 const Course = () => {
     return (
+        <>
         <div className='courseSection'>
             <div className="courses">
                 <h1>Our Popular Courses</h1>
@@ -22,8 +25,10 @@ const Course = () => {
                 </div>
                 
             </div>
-            <h1 className='helo'> hello</h1>
+           
         </div>
+        <Card></Card>
+        </>
     );
 };
 

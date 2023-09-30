@@ -8,6 +8,7 @@ const Home = () => {
         <div>
             <BodySection></BodySection>
             <Course></Course>
+            
           
         </div>
     );
