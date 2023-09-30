@@ -3,12 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* .courseSection{
-    
-} */
 .courses h1{
     padding-top: 2.5em;
     text-align: center;
     font-size: 35px;
     color: rgb(51, 43, 43);
+}
+.lineDirection{
+    margin-top: 10px;
+    left: 46%;
+    position: relative;
+
+}
+.horizontal{
+    display: inline-flex;
+    gap: 2px;
+}
+.horizontal .horizontalSmall hr{
+    width: 5px; 
+
+}
+.horizontal hr{
+    width: 60px;
+}
+
+.horizontal small hr{
+    width: 5px;
+}
+
+.helo{
+    padding-top: 100px;
 }
