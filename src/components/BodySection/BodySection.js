@@ -8,7 +8,7 @@ const BodySection = () => {
             <div className="backgroundPart">
 
                 <h1> <span>Education</span> & Training  Organization</h1>
-                <p>We provide the best Education System for you</p>
+                <p>We provide the best Education System for you.You can check what you have needed.</p>
 
                 <div className="btnAll">
                     <div className="forAllClass">

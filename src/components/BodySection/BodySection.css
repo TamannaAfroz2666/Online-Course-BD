@@ -6,7 +6,7 @@
 }
 .BodySection{
     height: 700px;
-    background-image:  linear-gradient(to right, rgba(36, 41, 46, 0.6), rgba(37, 39, 41, 0.6)), url('../../Assets/Image/Background/BackgroundImage.jpg');
+    background-image:  linear-gradient(to right, rgba(44, 47, 51, 0.6), rgba(37, 39, 41, 0.6)), url('../../Assets/Image/Background/BackgroundImage.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +18,7 @@
 }
 .backgroundPart h1{
     width: 70%;
-    padding-top: 6em;
+    padding-top: 5.5em;
     font-size: 55px;
     line-height: 60px;
     font-family:  serif;
@@ -26,4 +26,12 @@
 }
 .backgroundPart h1 span {
     color: #f04b4b;
+}
+.backgroundPart p{
+    width: 50%;
+    color: #fff;
+    font-size: 19px;
+    font-family:sans-serif;
+    padding-top: 18px;
+    font-weight: 500;
 }
