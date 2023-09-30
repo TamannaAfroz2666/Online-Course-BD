@@ -26,6 +26,9 @@ const Card = () => {
                             </div>
 
                         </div>
+                        <div className="card-title">
+                            <h3>Business Development</h3>
+                        </div>
 
                     </div>
 
