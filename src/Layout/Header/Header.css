@@ -1,6 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .headerMain{
     height: 100px;
     background-color: aquamarine;
+    /* position: sticky;
+    top: 0; */
 }
 .headerSub{
     width: 80%;
@@ -49,6 +57,7 @@
    top: 2px;
    position: relative;
 }
+
 
 
 /*--------- navbar styled---------------  */

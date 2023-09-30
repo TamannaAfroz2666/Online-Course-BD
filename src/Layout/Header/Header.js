@@ -14,34 +14,35 @@ const Header = () => {
                             <img src={logo} alt="wait please ....." />
                             <p>
                                 <span className='edu'>Edu</span>
-                                 <span className='zone'>Zone</span>
-                                  <br />
-                                  <small>Happy Education</small></p>
+                                <span className='zone'>Zone</span>
+                                <br />
+                                <small>Happy Education</small></p>
                         </a>
                     </div>
 
                     <div className="navbarMain">
+
                         <a href="#">Home</a>
                         <a href="#">About</a>
-                        <a href="#">Course
-                        
-                         </a>
-                         <small >
-                        <AiOutlineDown className='iconDown' /> 
+
+                        <a href="#">Course</a>
+                        <small >
+                            <AiOutlineDown className='iconDown' />
                         </small>
                         <a href="#">Lesson</a>
                         <small >
-                        <AiOutlineDown className='iconDown' /> 
+                            <AiOutlineDown className='iconDown' />
                         </small>
                         <a href="#">Pages</a>
                         <small >
-                        <AiOutlineDown className='iconDown' /> 
+                            <AiOutlineDown className='iconDown' />
                         </small>
                         <a href="#">Blog</a>
                         <small >
-                        <AiOutlineDown className='iconDown' /> 
+                            <AiOutlineDown className='iconDown' />
                         </small>
                         <a href="#">Contact</a>
+
                     </div>
 
                 </div>
