@@ -41,6 +41,12 @@
     bottom: 10.8px;
     position: relative;
 }
+ .title{
+    width: 300px;
+    padding: 10px 18px;  
+    background-color: rgb(23, 24, 24);
+    color: #fff;
+}
 
 .name{
     padding-top: 80px;
