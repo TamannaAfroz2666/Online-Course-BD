@@ -37,6 +37,12 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
+.logo p small{
+    font-size: 17px;
+    color: rgba(116, 103, 103, 0.753);
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 
 /*--------- navbar styled---------------  */
@@ -48,10 +54,9 @@
     font-weight: 600;
     line-height: 100px;
     padding: 0 20px;
-  
-   
 
 }
+
 
 
 /* --------------hover start-------------  */
