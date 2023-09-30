@@ -1,6 +1,8 @@
 import React from 'react';
 import './Card.css';
-import image from '../../../Assets/Image/Card/BusinessAnalysis.jpg'
+import businessDevelopment from '../../../Assets/Image/Card/BusinessAnalysis.jpg';
+import jhonDoe from '../../../Assets/Image/TrainePictures/Jhon Doe.jpg';
+
 
 
 
@@ -9,19 +11,34 @@ const Card = () => {
         <div className='courseCard'>
             <div className="CardMain">
                 <div className="card">
-                    <div className="card-image">
-                        <img src= {image}alt="null" />
-                      
+                    <div className="BusinessDevelopment">
+                        <div className="card-image">
+                            <img src={businessDevelopment} alt="null" />
+                        </div>
+                        <div className="trineName">
+                            <div className="taineImage">
+                                <img src={jhonDoe} alt="null" />
+                            </div>
+                            <div className="taineName">
+                                <a href="#">
+                                    <h6>Jhon Doe</h6>
+                                </a>
 
+                            </div>
+
+
+
+                        </div>
 
                     </div>
+
                 </div>
 
             </div>
 
             <div className='name '>hello</div>
 
-            
+
         </div>
     );
 };
