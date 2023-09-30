@@ -45,6 +45,9 @@
     bottom: 5em;
     position: relative;
 }
+.card-title a{
+    text-decoration: none;
+}
  .title{
     width: 300px;
     padding: 10px 18px;  

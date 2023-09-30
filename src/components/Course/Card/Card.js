@@ -27,7 +27,10 @@ const Card = () => {
 
                         </div>
                         <div className="card-title">
+                            <a href="/businessDevelopment">
                             <h4 className='title'> Business Development</h4>
+                            </a>
+                           
                         </div>
 
                     </div>
