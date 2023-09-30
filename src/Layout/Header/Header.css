@@ -5,6 +5,9 @@
 .headerSub{
     width: 80%;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .logo a{
     display: flex;
