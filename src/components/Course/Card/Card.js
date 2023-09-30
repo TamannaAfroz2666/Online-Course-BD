@@ -15,18 +15,15 @@ const Card = () => {
                         <div className="card-image">
                             <img src={businessDevelopment} alt="null" />
                         </div>
-                        <div className="trineName">
+                        <div className="trineNameAll">
+                            <div className="taineName">
+                                <a href="#">
+                                    <h5>Jhon Doe</h5>
+                                </a>
+                            </div>
                             <div className="taineImage">
                                 <img src={jhonDoe} alt="null" />
                             </div>
-                            <div className="taineName">
-                                <a href="#">
-                                    <h6>Jhon Doe</h6>
-                                </a>
-
-                            </div>
-
-
 
                         </div>
 
