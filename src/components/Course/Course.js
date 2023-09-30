@@ -1,9 +1,12 @@
 import React from 'react';
+import './Course.css'
 
 const Course = () => {
     return (
-        <div>
-            <h1>popular</h1>
+        <div className='courseSection'>
+            <div className="courses">
+                <h1>Our Popular Courses</h1>
+            </div>
         </div>
     );
 };

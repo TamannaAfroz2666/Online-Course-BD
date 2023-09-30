@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .courseSection{
+    
+} */
+.courses h1{
+    padding-top: 2.5em;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(51, 43, 43);
+}
