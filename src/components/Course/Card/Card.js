@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css';
 import businessDevelopment from '../../../Assets/Image/Card/BusinessAnalysis.jpg';
 import jhonDoe from '../../../Assets/Image/TrainePictures/Jhon Doe.jpg';
-import { AiOutlineStar } from "react-icons/ai";
+import { AiFillStar } from "react-icons/ai";
 
 
 
@@ -35,11 +35,11 @@ const Card = () => {
                         <div className="ratingsPublic">
                             <div className="iconList">
                                 <ul>
-                                    <li>   <AiOutlineStar /></li>
-                                    <li>   <AiOutlineStar /></li>
-                                    <li>   <AiOutlineStar /></li>
-                                    <li>   <AiOutlineStar /></li>
-                                    <li className='lastOne'>   <AiOutlineStar /></li>
+                                    <li>   <AiFillStar /></li>
+                                    <li>   <AiFillStar /></li>
+                                    <li>   <AiFillStar /></li>
+                                    <li>   <AiFillStar /></li>
+                                    <li className='lastOne'>   <AiFillStar /></li>
                                 </ul>
                             </div>
                         </div>
