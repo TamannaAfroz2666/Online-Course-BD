@@ -30,8 +30,17 @@ const Header = () => {
                         <AiOutlineDown className='iconDown' /> 
                         </small>
                         <a href="#">Lesson</a>
+                        <small >
+                        <AiOutlineDown className='iconDown' /> 
+                        </small>
                         <a href="#">Pages</a>
+                        <small >
+                        <AiOutlineDown className='iconDown' /> 
+                        </small>
                         <a href="#">Blog</a>
+                        <small >
+                        <AiOutlineDown className='iconDown' /> 
+                        </small>
                         <a href="#">Contact</a>
                     </div>
 
