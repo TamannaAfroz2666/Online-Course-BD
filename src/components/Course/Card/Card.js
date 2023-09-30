@@ -3,6 +3,7 @@ import './Card.css';
 import businessDevelopment from '../../../Assets/Image/Card/BusinessAnalysis.jpg';
 import jhonDoe from '../../../Assets/Image/TrainePictures/Jhon Doe.jpg';
 import { AiFillStar } from "react-icons/ai";
+import {  BiSolidUser } from "react-icons/bi";
 
 
 
@@ -41,6 +42,15 @@ const Card = () => {
                                     <li>   <AiFillStar /></li>
                                     <li >   <AiFillStar  className='lastOne'/></li>
                                 </ul>
+                            </div>
+                            <div className="ratingList">
+                                <div className="userQuantity">
+                                    <span> <BiSolidUser></BiSolidUser> </span>
+
+                                </div>
+                                <div className="textQuantity">
+
+                                </div>
                             </div>
                         </div>
 
