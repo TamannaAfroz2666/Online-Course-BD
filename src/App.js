@@ -1,13 +1,13 @@
 
 import './App.css';
 import TopHeader from './Layout/TopHeader/TopHeader';
-import Home from './components/Home/Home';
+// import Home from './components/Home/Home';
 
 
 function App() {
   return (
     <div className='container'>
-      <Home></Home>
+      {/* <Home></Home> */}
       <TopHeader></TopHeader>
  
     

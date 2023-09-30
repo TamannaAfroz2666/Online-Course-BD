@@ -1,3 +1,23 @@
+
+
+.topBar{
+    width: 100%;
+    height: 50px;
+    background-color: #e83e8c;
+}
+.sub-tobBar{
+    width: 80%;
+    margin: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.emailPart{
+    
+}
+
+
 .userIcon{
     font-size: 20px;
     color: brown;
