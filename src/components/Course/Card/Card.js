@@ -39,7 +39,7 @@ const Card = () => {
                                     <li>   <AiFillStar /></li>
                                     <li>   <AiFillStar /></li>
                                     <li>   <AiFillStar /></li>
-                                    <li className='lastOne'>   <AiFillStar /></li>
+                                    <li >   <AiFillStar  className='lastOne'/></li>
                                 </ul>
                             </div>
                         </div>
