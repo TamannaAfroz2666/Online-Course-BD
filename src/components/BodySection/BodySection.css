@@ -69,3 +69,14 @@
 
 
 }
+
+/*====================== hover add ===================== */
+
+.forAllClass:hover button{
+    background-color: #fff;
+    color: #f04b4b;
+}
+.btnContactUs:hover button{
+    background-color: #f04b4b;
+    border: 0;
+}
