@@ -27,7 +27,7 @@ const Card = () => {
 
                         </div>
                         <div className="card-title">
-                            <h3 className='title'> Business Development</h3>
+                            <h4 className='title'> Business Development</h4>
                         </div>
 
                     </div>
