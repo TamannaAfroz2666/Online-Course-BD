@@ -12,9 +12,10 @@ const TopHeader = () => {
                 <a href="#">support@themeix.com</a>
             </div>
             <div className="singUpPart">
-                <button>
-                <FaUser className='userIcon' />
-                    <p> Sing In</p>
+                <button type='button'>
+                     <a href="#"> <FaUser className='userIcon' />
+                     Sing In </a>
+               
                 </button>
                
 
