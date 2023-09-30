@@ -2,6 +2,7 @@ import React from 'react';
 import './Card.css';
 import businessDevelopment from '../../../Assets/Image/Card/BusinessAnalysis.jpg';
 import jhonDoe from '../../../Assets/Image/TrainePictures/Jhon Doe.jpg';
+import { AiOutlineStar } from "react-icons/ai";
 
 
 
@@ -28,9 +29,24 @@ const Card = () => {
                         </div>
                         <div className="card-title">
                             <a href="/businessDevelopment">
-                            <h4 className='title'> Business Development</h4>
+                                <h4 className='title'> Business Development</h4>
                             </a>
-                           
+                        </div>
+                        <div className="ratingsPublic">
+                            <div className="iconList">
+                                <ul>
+                                <li>   <AiOutlineStar/></li>
+                                <li>   <AiOutlineStar/></li>
+                                <li>   <AiOutlineStar/></li>
+                                <li>   <AiOutlineStar/></li>
+                                <li>   <AiOutlineStar/></li>
+                                </ul>
+
+                              
+
+                                
+
+                            </div>
                         </div>
 
                     </div>
