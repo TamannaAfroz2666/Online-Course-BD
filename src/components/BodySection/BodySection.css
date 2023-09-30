@@ -4,6 +4,13 @@
     box-sizing: border-box;
 
 }
-.backgroundPart{
+.BodySection{
+    height: 500px;
+    background-image:  linear-gradient(to right, rgba(36, 41, 46, 0.6), rgba(37, 39, 41, 0.6)), url('../../Assets/Image/Background/BackgroundImage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: .5; */
     
+    /* background-color: rgba(100, 89, 89, 0.253); */
 }
