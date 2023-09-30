@@ -1,7 +1,8 @@
 import React from 'react';
 import './Header.css';
-
 import logo from '../../Assets/Image/Logo/logo.jpg'
+import { AiOutlineDown } from "react-icons/ai";
+
 
 const Header = () => {
     return (
@@ -22,7 +23,12 @@ const Header = () => {
                     <div className="navbarMain">
                         <a href="#">Home</a>
                         <a href="#">About</a>
-                        <a href="#">Course</a>
+                        <a href="#">Course
+                        
+                         </a>
+                         <small >
+                        <AiOutlineDown className='iconDown' /> 
+                        </small>
                         <a href="#">Lesson</a>
                         <a href="#">Pages</a>
                         <a href="#">Blog</a>
