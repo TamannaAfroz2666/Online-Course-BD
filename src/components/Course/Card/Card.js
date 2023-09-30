@@ -35,17 +35,12 @@ const Card = () => {
                         <div className="ratingsPublic">
                             <div className="iconList">
                                 <ul>
-                                <li>   <AiOutlineStar/></li>
-                                <li>   <AiOutlineStar/></li>
-                                <li>   <AiOutlineStar/></li>
-                                <li>   <AiOutlineStar/></li>
-                                <li>   <AiOutlineStar/></li>
+                                    <li>   <AiOutlineStar /></li>
+                                    <li>   <AiOutlineStar /></li>
+                                    <li>   <AiOutlineStar /></li>
+                                    <li>   <AiOutlineStar /></li>
+                                    <li className='lastOne'>   <AiOutlineStar /></li>
                                 </ul>
-
-                              
-
-                                
-
                             </div>
                         </div>
 

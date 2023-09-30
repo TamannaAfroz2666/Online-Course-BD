@@ -59,15 +59,24 @@
 }
 
 /*--------------- icon styled ---------- */
+.ratingsPublic{
+    width: 300px;
+    height: 30px ;
+    background-color: rgb(119, 202, 202);
+    bottom: 4em;
+    position: relative;
+    
+}
 .iconList ul{
     display: inline-flex;
     gap: 10px;
     padding: 0px 8px;
     list-style: none;
-    
-    /* margin-bottom: 22em; */
 }
+.iconList ul li{
+    /* padding: 10px 0px; */
 
+}
 .name{
     padding-top: 80px;
 }
