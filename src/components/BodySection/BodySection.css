@@ -5,12 +5,25 @@
 
 }
 .BodySection{
-    height: 500px;
+    height: 700px;
     background-image:  linear-gradient(to right, rgba(36, 41, 46, 0.6), rgba(37, 39, 41, 0.6)), url('../../Assets/Image/Background/BackgroundImage.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* opacity: .5; */
-    
-    /* background-color: rgba(100, 89, 89, 0.253); */
+        
+}
+.backgroundPart{
+    width: 80%;
+    margin: auto;
+}
+.backgroundPart h1{
+    width: 70%;
+    padding-top: 6em;
+    font-size: 55px;
+    line-height: 60px;
+    font-family:  serif;
+    color: whitesmoke;
+}
+.backgroundPart h1 span {
+    color: #f04b4b;
 }

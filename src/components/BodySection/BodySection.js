@@ -7,7 +7,7 @@ const BodySection = () => {
         <div className='BodySection'>
             <div className="backgroundPart">
 
-                <h1>Education & Training  Organization</h1>
+                <h1> <span>Education</span> & Training  Organization</h1>
                 <p>We provide the best Education System for you</p>
 
                 <div className="btnAll">
@@ -15,8 +15,6 @@ const BodySection = () => {
                         <a href="#">
                             <button>Our Course</button>
                         </a>
-
-
                     </div>
                     <div className="btnContactUs">
                         <a href="#">
