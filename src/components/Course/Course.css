@@ -10,7 +10,7 @@
     color: rgb(51, 43, 43);
 }
 .lineDirection{
-    margin-top: 10px;
+    /* margin-top: 5px; */
     left: 46%;
     position: relative;
 
@@ -29,6 +29,15 @@
 
 .horizontal small hr{
     width: 5px;
+}
+.shortDescription{
+    padding: 20px 14em;
+    font-size: 18px;
+    text-align:justify;
+}
+.shortDes{
+    text-align: center;
+
 }
 
 .helo{
