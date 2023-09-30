@@ -11,7 +11,11 @@ const Header = () => {
                     <div className="logo">
                         <a href="#">
                             <img src={logo} alt="wait please ....." />
-                            <p>Edu <span>Zone</span> <br /><small>Happy Education</small></p>
+                            <p>
+                                <span className='edu'>Edu</span>
+                                 <span className='zone'>Zone</span>
+                                  <br />
+                                  <small>Happy Education</small></p>
                         </a>
                     </div>
 

@@ -20,8 +20,24 @@
     width: 50px;
     height: 60px;
     border-radius: 8px;
+    padding-top: 10px;
     opacity: 1;
 }
+.logo p .edu{
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.logo p .zone{
+    font-size: 30px;
+    color: rgb(235, 5, 5);
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
 
 /*--------- navbar styled---------------  */
 
