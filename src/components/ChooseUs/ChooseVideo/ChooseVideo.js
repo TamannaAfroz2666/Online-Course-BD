@@ -2,7 +2,11 @@ import React from 'react';
 
 const ChooseVideo = () => {
     return (
-        <div>
+        <div className='videoPart'>
+            <div className="videoSet">
+                
+            </div>
+
             
         </div>
     );
