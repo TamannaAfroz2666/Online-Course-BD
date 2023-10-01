@@ -8,6 +8,9 @@
     margin: auto;
     margin-top: 60px;
 }
+.infoHead{
+    /* width: 400px; */
+}
 .infoHead h1{
     font-size: 40px;
     text-transform: capitalize;
@@ -38,10 +41,33 @@
 /* difference usages style  */
 
 .optionsHead{
+    width: 80%px;
     margin-top: 60px;
+    display: inline-flex;
+    /* gap: 20px; */
 }
 .iconIs{
     font-size: 60px;
     color: rgb(238, 165, 165); 
+}
+.shortDescription{
+
+   right: 12em;
+   bottom: 1em;
+   position: relative;
+}
+.shortDescription h5{
+    font-size: 21px;
+    color: #262626;
+    font-family: serif;
+    font-weight: 700;
+}
+.shortDescription span
+{
+    font-size: 18px;
+    color: #212529;
+    line-height: 22px;
+    text-align: left;
+    font-weight: 400;
 }
 
