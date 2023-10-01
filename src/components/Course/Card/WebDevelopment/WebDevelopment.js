@@ -1,6 +1,6 @@
 import React from 'react';
 import './WebDevelopment.css';
-import webImage from '../../../../Assets/Image/Card/BusinessAnalysis.jpg'
+import webImage from '../../../../Assets/Image/Card/WebDevlopment.jpg'
 import { AiFillStar } from "react-icons/ai";
 import { BiSolidUser, BiSolidMessageRounded } from "react-icons/bi";
 import traineeImage from '../../../../Assets/Image/TrainePictures/Ta Ani.jpg';
@@ -19,7 +19,7 @@ const WebDevelopment = () => {
                         <div className="trineNameAll">
                             <div className="taineName">
                                 <a href="#">
-                                    <h5 > Jhon doe</h5>
+                                    <h5 >Tamanna</h5>
                                 </a>
                             </div>
                             <div className="taineImage">
@@ -29,7 +29,7 @@ const WebDevelopment = () => {
                         </div>
                         <div className="card-title">
                             <a href="/businessDevelopment">
-                                <h4 className='title'> Business Development</h4>
+                                <h4 className='title'> Web Development</h4>
                             </a>
                         </div>
                         <div className="ratingsPublic">
@@ -44,10 +44,10 @@ const WebDevelopment = () => {
                             </div>
                             <div className="ratingList">
                                 <div className="userQuantity">
-                                    <p> <BiSolidUser className='quantityIcon'/> <span>230</span></p>
+                                    <p> <BiSolidUser className='quantityIcon'/> <span>4030</span></p>
                                 </div>
                                 <div className="textQuantity">
-                                    <p><BiSolidMessageRounded className='textIcon' /> <span>5050
+                                    <p><BiSolidMessageRounded className='textIcon' /> <span>505
                                     </span> </p>
 
                                 </div>
@@ -55,7 +55,7 @@ const WebDevelopment = () => {
                         </div>
                         {/*------ short title----  */}
                         <div className="shortTitleDes">
-                            <p> used to identify, nurture and acquire new clients. </p>
+                            <p> Refers to the creating, building, and maintaining of websites. </p>
                         </div>
                         {/* --------button group ----- */}
                         <div className="buttonGroup">
@@ -79,7 +79,7 @@ const WebDevelopment = () => {
 
             </div>
 
-            <div className='name '>hello</div>
+            {/* <div className='name '>hello</div> */}
 
 
         </div>
