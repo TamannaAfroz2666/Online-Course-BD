@@ -20,7 +20,7 @@ const Card = () => {
                         <div className="trineNameAll">
                             <div className="taineName">
                                 <a href="#">
-                                    <h5>Jhon Doe</h5>
+                                    <h5 > Jhon doe</h5>
                                 </a>
                             </div>
                             <div className="taineImage">
@@ -54,8 +54,23 @@ const Card = () => {
                                 </div>
                             </div>
                         </div>
+                        {/*------ short title----  */}
                         <div className="shortTitleDes">
                             <p> used to identify, nurture and acquire new clients. </p>
+                        </div>
+                        {/* --------button group ----- */}
+                        <div className="buttonGroup">
+                            <div className="enrollBtn">
+                                <button type='button'>
+                                    <a href="/enroll page"> Enroll Now</a>
+                                </button>
+                            </div>
+                            <div className="freeBtn">
+                                <button>
+
+                                </button>
+                            </div>
+
                         </div>
 
                     </div>
