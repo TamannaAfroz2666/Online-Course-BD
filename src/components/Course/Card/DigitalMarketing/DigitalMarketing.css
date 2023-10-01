@@ -31,21 +31,23 @@
     /* left: 9.2em; */
     bottom: 6em;
     position: relative;
+    /* background-color: aquamarine; */
 
 }
 
-.taineName a {
+.taineNameD a {
     text-decoration: none;
 }
 
-.taineName a h5 {
-    width: 152px;
+.taineNameD a h5 {
+    width: 154px;
     font-size: 12px;
     color: rgb(250, 238, 238);
-    padding: 8px 10px 8px 10px;
+    padding: 10px 10px 10px 10px;
     /* border-radius: 25px 20px;  */
     border-radius: 8% / 50%;
-    background-color: #2bcc70;
+    background-color: #ffc107;
+  
     word-wrap: none;
 }
 

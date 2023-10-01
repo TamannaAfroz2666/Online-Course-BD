@@ -11,13 +11,13 @@ const WebDevelopment = () => {
             <div className='courseCard'>
             <div className="CardMain">
                 <div className="card">
-                    <div className="BusinessDevelopment">
+                    <div className="webDevelopment">
                         <div className="card-image">
                             <img src={webImage} alt="null" />
                         </div>
-                        {/*---  traine info ---- */}
+                        {/*---  trainee info ---- */}
                         <div className="trineNameAll">
-                            <div className="taineName">
+                            <div className="taineNameW">
                                 <a href="#">
                                     <h5 >Tamanna</h5>
                                 </a>
@@ -28,7 +28,7 @@ const WebDevelopment = () => {
 
                         </div>
                         <div className="card-title">
-                            <a href="/businessDevelopment">
+                            <a href="/webDevelopment">
                                 <h4 className='title'> Web Development</h4>
                             </a>
                         </div>
@@ -78,10 +78,6 @@ const WebDevelopment = () => {
                 </div>
 
             </div>
-
-            {/* <div className='name '>hello</div> */}
-
-
         </div>
             
         </div>

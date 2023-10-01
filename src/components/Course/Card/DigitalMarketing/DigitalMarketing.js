@@ -1,7 +1,7 @@
 import React from 'react';
 import './DigitalMarketing.css';
 import DigitalMarketingImage from '../../../../Assets/Image/Card/BusinessStragy.jpg';
-import jhonDoe from '../../../../Assets/Image/TrainePictures/Jhon Rock.jpg';
+import jhonRock from '../../../../Assets/Image/TrainePictures/Jhon Rock.jpg';
 import { AiFillStar } from "react-icons/ai";
 import { BiSolidUser, BiSolidMessageRounded } from "react-icons/bi";
 
@@ -11,25 +11,25 @@ const DigitalMarketing = () => {
             <div className='courseCard'>
             <div className="CardMain">
                 <div className="card">
-                    <div className="BusinessDevelopment">
+                    <div className="digitalMarketing">
                         <div className="card-image">
                             <img src={DigitalMarketingImage} alt="null" />
                         </div>
                         {/*---  traine info ---- */}
                         <div className="trineNameAll">
-                            <div className="taineName">
+                            <div className="taineNameD">
                                 <a href="#">
-                                    <h5 > Jhon doe</h5>
+                                    <h5 > Jhon Rock</h5>
                                 </a>
                             </div>
                             <div className="taineImage">
-                                <img src={jhonDoe} alt="null" />
+                                <img src={jhonRock} alt="null" />
                             </div>
 
                         </div>
                         <div className="card-title">
                             <a href="/businessDevelopment">
-                                <h4 className='title'> Business Development</h4>
+                                <h4 className='title'> Digital Marketing Strategy</h4>
                             </a>
                         </div>
                         <div className="ratingsPublic">
@@ -44,10 +44,10 @@ const DigitalMarketing = () => {
                             </div>
                             <div className="ratingList">
                                 <div className="userQuantity">
-                                    <p> <BiSolidUser className='quantityIcon'/> <span>230</span></p>
+                                    <p> <BiSolidUser className='quantityIcon'/> <span>2300</span></p>
                                 </div>
                                 <div className="textQuantity">
-                                    <p><BiSolidMessageRounded className='textIcon' /> <span>5050
+                                    <p><BiSolidMessageRounded className='textIcon' /> <span>550
                                     </span> </p>
 
                                 </div>
@@ -55,7 +55,7 @@ const DigitalMarketing = () => {
                         </div>
                         {/*------ short title----  */}
                         <div className="shortTitleDes">
-                            <p> used to identify, nurture and acquire new clients. </p>
+                            <p> Connect with potential customers using the internet of communication </p>
                         </div>
                         {/* --------button group ----- */}
                         <div className="buttonGroup">
@@ -78,9 +78,6 @@ const DigitalMarketing = () => {
                 </div>
 
             </div>
-
-            <div className='name '>hello</div>
-
 
         </div>
             
