@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 .parentCard{
+    width: 80%;
+    margin: auto;
     margin-top: 80px;
 }
 .header{
     display: flex;
-    gap: 60px;
+    /* justify-content: space-between; */
+    gap: 70px;
 }

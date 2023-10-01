@@ -1,6 +1,7 @@
 import React from 'react';
 import './Course.css'
-import Card from './Card/Card';
+import ParentCard from './ParentCard/ParentCard';
+// import Card from './Card/Card';
 // import { Card } from 'react-bootstrap';
 
 const Course = () => {
@@ -27,7 +28,8 @@ const Course = () => {
             </div>
            
         </div>
-        <Card></Card>
+        {/* <Card></Card> */}
+        <ParentCard></ParentCard>
         </>
     );
 };
