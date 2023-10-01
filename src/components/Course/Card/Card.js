@@ -54,6 +54,9 @@ const Card = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="shortTitleDes">
+                            <p> used to identify, nurture and acquire new clients. </p>
+                        </div>
 
                     </div>
 
