@@ -11,6 +11,7 @@ const ChooseInfo = () => {
                      <hr color='orange' size='4' className='second' /> 
                      <hr color='orange' size='4'  className='first'/>
                 </div>
+                <p>Our learning a good option for students who need to balance their work and family commitments.</p>
 
             </div>
 
