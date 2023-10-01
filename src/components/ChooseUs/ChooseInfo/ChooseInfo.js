@@ -1,7 +1,7 @@
 import React from 'react';
 import './ChooseInfo.css';
 import { PiBookOpenLight } from "react-icons/pi";
-import { PiGraduationCapLight } from "react-icons/pi";
+import { PiGraduationCapLight, PiNewspaperClipping } from "react-icons/pi";
 
 
 const ChooseInfo = () => {
@@ -32,6 +32,18 @@ const ChooseInfo = () => {
                     <div className="iconIs">
                      
                         <PiGraduationCapLight  className='graduationIcon'/>
+
+                    </div>
+                    <div className="shortDescription">
+                        <h5>Learning Management</h5>
+                        <span>LMS Integration</span>
+                    </div>
+                </div>
+                {/* Online Certification part  */}
+                <div className="optionsHeadLearning">
+                    <div className="iconIs">
+                     
+                        <PiNewspaperClipping  className='graduationIcon'/>
 
                     </div>
                     <div className="shortDescription">
