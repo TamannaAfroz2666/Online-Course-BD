@@ -74,6 +74,8 @@
     /* background-color: rgb(119, 202, 202); */
     bottom: 4em;
     position: relative;
+    display: flex;
+    gap: 40px;
 
 }
 
@@ -90,7 +92,36 @@
 .lastOne{
     color: rgb(248, 207, 130);
 }
+.ratingList{
+    display: inline-flex;
+    gap: 20px;
+}
+.quantityIcon{
+    color:#939292;
+
+}
+.userQuantity p span{
+    font-size: 12px;
+    color:#939292;
+    padding-left: 2px;
+    bottom: 2px;
+    position: relative;
+}
+.textIcon{
+    color:#939292;
+    padding-top: 1px;
+
+}
+.textQuantity p span{
+    font-size: 12px;
+    color:#939292;
+    padding-left: 2px;
+    bottom: 2px;
+    position: relative;
+}
+
 
 .name {
     padding-top: 80px;
+    
 }

@@ -3,7 +3,7 @@ import './Card.css';
 import businessDevelopment from '../../../Assets/Image/Card/BusinessAnalysis.jpg';
 import jhonDoe from '../../../Assets/Image/TrainePictures/Jhon Doe.jpg';
 import { AiFillStar } from "react-icons/ai";
-import {  BiSolidUser, BiSolidMessageRounded } from "react-icons/bi";
+import { BiSolidUser, BiSolidMessageRounded } from "react-icons/bi";
 
 
 
@@ -40,16 +40,16 @@ const Card = () => {
                                     <li>   <AiFillStar /></li>
                                     <li>   <AiFillStar /></li>
                                     <li>   <AiFillStar /></li>
-                                    <li >   <AiFillStar  className='lastOne'/></li>
+                                    <li >   <AiFillStar className='lastOne' /></li>
                                 </ul>
                             </div>
                             <div className="ratingList">
                                 <div className="userQuantity">
-                                   <p> <BiSolidUser></BiSolidUser> <span>230</span></p>
+                                    <p> <BiSolidUser className='quantityIcon'/> <span>230</span></p>
                                 </div>
                                 <div className="textQuantity">
-                                   <p><BiSolidMessageRounded/> <span>50
-                                        </span>50 </p>
+                                    <p><BiSolidMessageRounded className='textIcon' /> <span>5050
+                                    </span> </p>
 
                                 </div>
                             </div>
