@@ -7,7 +7,9 @@ const ChooseInfo = () => {
             <div className="infoHead">
                 <h1>Why Choose Us</h1>
                 <div className="horizontal">
-                    <hr color='orange' /> <hr color='orange' /> <hr color='orange' />
+                    <hr color='orange' size='4' className='first'/>
+                     <hr color='orange' size='4' className='second' /> 
+                     <hr color='orange' size='4'  className='first'/>
                 </div>
 
             </div>

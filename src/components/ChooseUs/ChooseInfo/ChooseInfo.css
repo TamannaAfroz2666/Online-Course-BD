@@ -8,6 +8,13 @@
     margin: auto;
     margin-top: 60px;
 }
+
 .horizontal{
     display: inline-flex;
+}
+.horizontal .first{
+    width: 5px;
+}
+.horizontal .second{
+    width: 60px;
 }
