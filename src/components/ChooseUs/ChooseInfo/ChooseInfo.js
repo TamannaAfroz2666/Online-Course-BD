@@ -1,5 +1,6 @@
 import React from 'react';
 import './ChooseInfo.css';
+import { IoBookSharp } from "react-icons/io5";
 
 const ChooseInfo = () => {
     return (
@@ -12,6 +13,18 @@ const ChooseInfo = () => {
                      <hr color='orange' size='4'  className='first'/>
                 </div>
                 <p>Our learning a good option for students who need to balance their work and family commitments.</p>
+
+                <div className="optionsHead">
+                    <div className="iconIs">
+                        <IoBookSharp />
+
+                    </div>
+                    <div className="shortDescription">
+
+                    </div>
+
+            
+                </div>
 
             </div>
 
