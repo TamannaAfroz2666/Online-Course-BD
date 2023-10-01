@@ -7,12 +7,14 @@
 .courseCard {
     width: 80%;
     margin: auto;
+    margin-top: 50px;
 }
 .CardMain{
     width: 300px;
-    
-    height: 500px;
-    border: 1px solid red;
+    height: 425px;
+    border: 0px solid rgb(54, 50, 50);
+    /* box-shadow: 40px rgb(250, 172, 172); */
+    box-shadow: 0 14px 12px -4px rgba(117, 114, 114, 0.2);
 }
 
 .card-image img {
