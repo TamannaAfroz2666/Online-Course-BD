@@ -30,13 +30,13 @@ const ChooseInfo = () => {
                 {/* learning part  */}
                 <div className="optionsHeadLearning">
                     <div className="iconIs">
-                        {/* <IoBookSharp className='bookIcon' /> */}
+                     
                         <PiGraduationCapLight  className='graduationIcon'/>
 
                     </div>
                     <div className="shortDescription">
-                        <h5>Best Education System</h5>
-                        <span>Advanced Education Management</span>
+                        <h5>Learning Management</h5>
+                        <span>LMS Integration</span>
                     </div>
                 </div>
 
