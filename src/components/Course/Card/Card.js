@@ -17,6 +17,7 @@ const Card = () => {
                         <div className="card-image">
                             <img src={businessDevelopment} alt="null" />
                         </div>
+                        {/*---  traine info ---- */}
                         <div className="trineNameAll">
                             <div className="taineName">
                                 <a href="#">
@@ -67,6 +68,7 @@ const Card = () => {
                             </div>
                             <div className="freeBtn">
                                 <button>
+                                    <a href="/free">Free</a>
 
                                 </button>
                             </div>
