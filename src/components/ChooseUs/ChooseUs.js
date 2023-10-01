@@ -1,10 +1,11 @@
 import React from 'react';
 import './ChooseUs.css';
+import ChooseInfo from './ChooseInfo/ChooseInfo';
 
 const ChooseUs = () => {
     return (
         <div className='chooseUs'>
-          <h1>hello</h1>
+          <ChooseInfo></ChooseInfo>
         </div>
     );
 };
