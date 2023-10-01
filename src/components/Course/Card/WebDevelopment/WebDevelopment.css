@@ -1,5 +1,195 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.courseCard {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.CardMain{
+    width: 300px;
+    height: 425px;
+    border: 0px solid rgb(54, 50, 50);
+    /* box-shadow: 40px rgb(250, 172, 172); */
+    box-shadow: 0 14px 12px -4px rgba(117, 114, 114, 0.2);
+}
+
+.card-image img {
+    width: 300px;
+    height: 250px;
+    opacity: .7;
+
+}
+
+.trineNameAll {
+    display: flex;
+    align-items: end;
+    margin: 0px 0px 0px 9.2em;
+    /* left: 9.2em; */
+    bottom: 6em;
+    position: relative;
+
+}
+
+.taineName a {
+    text-decoration: none;
+}
+
+.taineName a h5 {
+    width: 152px;
+    font-size: 12px;
+    color: rgb(250, 238, 238);
+    padding: 8px 10px 8px 10px;
+    /* border-radius: 25px 20px;  */
+    border-radius: 8% / 50%;
+    background-color: #2bcc70;
+    word-wrap: none;
+}
+
+.taineImage img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    right: 3.5em;
+    bottom: 16px;
+    position: relative;
+}
+
+.card-title {
+    bottom: 5em;
+    position: relative;
+
+}
+
+.card-title a {
+    text-decoration: none;
+}
+
+.title {
+    width: 300px;
+    padding: 10px 18px;
+    background-color: rgb(21, 24, 24);
+    color: #f3efefec;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+/*--------------- icon styled ---------- */
+.ratingsPublic {
+    width: 300px;
+    height: 30px;
+    /* background-color: rgb(119, 202, 202); */
+    bottom: 4em;
+    position: relative;
+    display: flex;
+    gap: 40px;
+
+}
+
+.iconList ul {
+    display: inline-flex;
+    gap: 10px;
+    padding: 0px 8px;
+    list-style: none;
+}
+
+.iconList ul li {
+    color: orange;
+}
+.lastOne{
+    color: rgb(248, 207, 130);
+}
+.ratingList{
+    display: inline-flex;
+    gap: 20px;
+}
+.quantityIcon{
+    color:#939292;
+
+}
+.userQuantity p span{
+    font-size: 12px;
+    color:#939292;
+    padding-left: 2px;
+    bottom: 2px;
+    position: relative;
+}
+.textIcon{
+    color:#939292;
+    padding-top: 1px;
+
+}
+
+.textQuantity p span{
+    font-size: 12px;
+    color:#939292;
+    padding-left: 2px;
+    bottom: 2px;
+    position: relative;
+}
+/*--- short title description --- */
+.shortTitleDes{
+    width: 300px;
+    font-size: 17px;
+    font-family: sans-serif;
+    padding: 0px 12px;
+    bottom: 3em;
+    position: relative;
+    color: #111;
+
+}
+
+/* ---button style here  ---- */
+
+.buttonGroup{
+    display: flex;
+    gap: 80px;
+    bottom: 2em;
+    position: relative;
+}
+.enrollBtn{
+    margin-left: 16px;
+}
+.enrollBtn button{
+    padding: 10px 20px;
+    background-color: #ef5f5f;
+    border: 0;
+    transition: .6s;
+}
+.enrollBtn button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+/* btn free  */
+.freeBtn button{
+    padding: 10px 20px;
+    background-color: #2bcc70;
+    border: 0;
+
+
+
+}
+.freeBtn button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 500;
+
+}
+/*------------------- hover work ------------ */
+.enrollBtn:hover button{
+    background-color: #111;   
+}
+
+.name {
+    padding-top: 80px;
+    
 }
