@@ -5,7 +5,12 @@ import ChooseInfo from './ChooseInfo/ChooseInfo';
 const ChooseUs = () => {
     return (
         <div className='chooseUs'>
-          <ChooseInfo></ChooseInfo>
+            <div className="chooseHead">
+                <div className="chooseInfo">
+                <ChooseInfo></ChooseInfo>
+                </div>
+            </div>
+          
         </div>
     );
 };

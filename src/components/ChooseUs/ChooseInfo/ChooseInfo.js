@@ -47,8 +47,8 @@ const ChooseInfo = () => {
 
                     </div>
                     <div className="shortDescription">
-                        <h5>Learning Management</h5>
-                        <span>LMS Integration</span>
+                        <h5>Online Certification</h5>
+                        <span>Performance based certificate</span>
                     </div>
                 </div>
 
