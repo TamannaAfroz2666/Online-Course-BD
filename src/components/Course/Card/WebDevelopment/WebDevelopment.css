@@ -8,20 +8,33 @@
     width: 80%;
     margin: auto;
     margin-top: 50px;
+    
 }
-.CardMain{
+
+
+
+.CardMain {
     width: 300px;
     height: 425px;
     border: 0px solid rgb(54, 50, 50);
     /* box-shadow: 40px rgb(250, 172, 172); */
-    box-shadow: 0 14px 12px -4px rgba(117, 114, 114, 0.2);
+    /* box-shadow: 0 14px 12px -4px rgba(117, 114, 114, 0.2); */
+    box-shadow: 0px 25px 30px 0px rgba(176, 218, 218, 0.7);
 }
+.card-image{
+    transition: all ease 0.2s;
 
+}
 .card-image img {
     width: 300px;
     height: 250px;
     opacity: .7;
 
+}
+/* hover add  */
+.card-image:hover img {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 15px 2px rgba(0, 255, 255, 0.7);
 }
 
 .trineNameAll {
@@ -99,39 +112,45 @@
 .iconList ul li {
     color: orange;
 }
-.lastOne{
+
+.lastOne {
     color: rgb(248, 207, 130);
 }
-.ratingList{
+
+.ratingList {
     display: inline-flex;
     gap: 20px;
 }
-.quantityIcon{
-    color:#939292;
+
+.quantityIcon {
+    color: #939292;
 
 }
-.userQuantity p span{
+
+.userQuantity p span {
     font-size: 12px;
-    color:#939292;
+    color: #939292;
     padding-left: 2px;
     bottom: 2px;
     position: relative;
 }
-.textIcon{
-    color:#939292;
+
+.textIcon {
+    color: #939292;
     padding-top: 1px;
 
 }
 
-.textQuantity p span{
+.textQuantity p span {
     font-size: 12px;
-    color:#939292;
+    color: #939292;
     padding-left: 2px;
     bottom: 2px;
     position: relative;
 }
+
 /*--- short title description --- */
-.shortTitleDes{
+.shortTitleDes {
     width: 300px;
     font-size: 17px;
     font-family: sans-serif;
@@ -144,30 +163,34 @@
 
 /* ---button style here  ---- */
 
-.buttonGroup{
+.buttonGroup {
     display: flex;
     gap: 80px;
     bottom: 2em;
     position: relative;
 }
-.enrollBtn{
+
+.enrollBtn {
     margin-left: 16px;
 }
-.enrollBtn button{
+
+.enrollBtn button {
     padding: 10px 20px;
     background-color: #ef5f5f;
     border: 0;
     transition: .6s;
 }
-.enrollBtn button a{
+
+.enrollBtn button a {
     text-decoration: none;
     color: #fff;
     font-size: 15px;
     text-transform: capitalize;
     font-family: sans-serif;
 }
+
 /* btn free  */
-.freeBtn button{
+.freeBtn button {
     padding: 10px 20px;
     background-color: #2bcc70;
     border: 0;
@@ -175,7 +198,8 @@
 
 
 }
-.freeBtn button a{
+
+.freeBtn button a {
     text-decoration: none;
     color: #fff;
     font-size: 17px;
@@ -184,12 +208,13 @@
     font-weight: 500;
 
 }
+
 /*------------------- hover work ------------ */
-.enrollBtn:hover button{
-    background-color: #111;   
+.enrollBtn:hover button {
+    background-color: #111;
 }
 
 .name {
     padding-top: 80px;
-    
+
 }
