@@ -151,6 +151,7 @@
     padding: 10px 20px;
     background-color: #ef5f5f;
     border: 0;
+    transition: .6s;
     
 
 }
@@ -161,6 +162,14 @@
     text-transform: capitalize;
     font-family: sans-serif;
 }
+
+/*------------------- hover work ------------ */
+.enrollBtn:hover button{
+    background-color: #111;
+   
+    
+}
+
 .name {
     padding-top: 80px;
     
