@@ -16,7 +16,7 @@ const ChooseInfo = () => {
 
                 <div className="optionsHead">
                     <div className="iconIs">
-                        <IoBookSharp />
+                        <IoBookSharp  className='bookIcon'/>
 
                     </div>
                     <div className="shortDescription">
