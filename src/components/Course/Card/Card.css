@@ -144,6 +144,23 @@
     display: flex;
     gap: 50px;
 }
+.enrollBtn{
+    margin-left: 16px;
+}
+.enrollBtn button{
+    padding: 10px 20px;
+    background-color: #ef5f5f;
+    border: 0;
+    
+
+}
+.enrollBtn button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
 .name {
     padding-top: 80px;
     
