@@ -81,7 +81,7 @@ const Card = () => {
 
             </div>
 
-            <div className='name '>hello</div>
+      
 
 
         </div>
