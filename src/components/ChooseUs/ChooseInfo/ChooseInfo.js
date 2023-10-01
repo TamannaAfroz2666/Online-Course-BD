@@ -1,6 +1,8 @@
 import React from 'react';
 import './ChooseInfo.css';
-import { IoBookSharp } from "react-icons/io5";
+import { PiBookOpenLight } from "react-icons/pi";
+import { PiGraduationCapLight } from "react-icons/pi";
+
 
 const ChooseInfo = () => {
     return (
@@ -13,18 +15,29 @@ const ChooseInfo = () => {
                     <hr color='orange' size='4' className='first' />
                 </div>
                 <p>Our learning a good option for students who need to balance their work and family commitments.</p>
-
+                <div className="optionChoose">
                 <div className="optionsHead">
                     <div className="iconIs">
-                        <IoBookSharp className='bookIcon' />
+                        <PiBookOpenLight className='bookIcon' />
+                    </div>
+                    <div className="shortDescription">
+                        <h5>Best Education System</h5>
+                        <span>Advanced Education Management</span>
+                    </div>
+                </div>
+
+                </div>
+                {/* learning part  */}
+                <div className="optionsHeadLearning">
+                    <div className="iconIs">
+                        {/* <IoBookSharp className='bookIcon' /> */}
+                        <PiGraduationCapLight  className='graduationIcon'/>
 
                     </div>
                     <div className="shortDescription">
                         <h5>Best Education System</h5>
                         <span>Advanced Education Management</span>
                     </div>
-
-
                 </div>
 
             </div>

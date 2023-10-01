@@ -39,12 +39,12 @@
 }
 
 /* difference usages style  */
-
-.optionsHead{
-    width: 80%px;
+.optionChoose{
     margin-top: 60px;
+}
+.optionsHead{
     display: inline-flex;
-    /* gap: 20px; */
+
 }
 .iconIs{
     font-size: 60px;
@@ -69,5 +69,11 @@
     line-height: 22px;
     text-align: left;
     font-weight: 400;
+}
+
+/* learning part  */
+.optionsHeadLearning{
+    margin-top: 10px;
+    display: flex;
 }
 
