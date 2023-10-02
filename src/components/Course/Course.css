@@ -30,7 +30,7 @@
 .horizontal small hr{
     width: 5px;
 }
-.shortDescription{
+.shortDescr {
     padding: 20px 14em;
     font-size: 18px;
     text-align:justify;
@@ -42,6 +42,6 @@
 /* -----card title ---- */
 
 
-.helo{
+/* .helo{
     padding-top: 100px;
-}
+} */

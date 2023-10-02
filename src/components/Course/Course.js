@@ -20,8 +20,8 @@ const Course = () => {
                             size="4" /></small>
                     </span>
                 </div>
-                <div className="shortDescription">
-                <p >An online course can be defined as a virtual learning experience organized into a course format. Courses <p className='shortDes'>can vary in their type, from informal to formal, and cover many different topics.</p></p>
+                <div className="shortDescr">
+                <p className='limited'>An online course can be defined as a virtual learning experience organized into a course format. Courses <p className='shortDes'>can vary in their type, from informal to formal, and cover many different topics.</p></p>
 
                 </div>
                 
