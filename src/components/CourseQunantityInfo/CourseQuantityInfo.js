@@ -1,10 +1,11 @@
 import React from 'react';
+import './CourseQuantityInfo.css'
 
 const CourseQuantityInfo = () => {
     return (
-        <div>
+        <div className='courseQuantity'>
             <div className="quantityHead">
-                
+
             </div>
             
         </div>
