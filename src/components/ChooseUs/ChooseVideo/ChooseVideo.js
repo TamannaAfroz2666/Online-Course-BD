@@ -9,7 +9,7 @@ const ChooseVideo = () => {
         <div className='videoPart'>
             <h1>Video here</h1>
             <div className="videoSet">
-                <Video className="heroVideo"  autoPlay loop 
+                <Video className="heroVideo"  autoPlay loop muted
                 onCanPlayThrough={() => {
                   console.log('video is opening');
                 }}
