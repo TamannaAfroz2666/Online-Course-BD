@@ -1,16 +1,22 @@
 import React from 'react';
 import './ChooseUs.css';
 import ChooseInfo from './ChooseInfo/ChooseInfo';
+import ChooseVideo from './ChooseVideo/ChooseVideo';
 
 const ChooseUs = () => {
     return (
         <div className='chooseUs'>
             <div className="chooseHead">
                 <div className="chooseInfo">
-                <ChooseInfo></ChooseInfo>
+                    <ChooseInfo></ChooseInfo>
+                </div>
+                <div className="chooseVedio">
+                    <ChooseVideo></ChooseVideo>
                 </div>
             </div>
-          
+
+
+
         </div>
     );
 };
