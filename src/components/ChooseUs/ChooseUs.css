@@ -13,5 +13,10 @@
 .chooseHead{
     margin-left: 20px;
     display: flex;
-    gap: 10px;
+    gap: 80px;
+
+}
+.chooseInfo{
+    width: 400px;
+    border: 1px solid red;
 }

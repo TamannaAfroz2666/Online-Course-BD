@@ -10,7 +10,7 @@ const ChooseUs = () => {
                 <div className="chooseInfo">
                     <ChooseInfo></ChooseInfo>
                 </div>
-                <div className="chooseVedio">
+                <div className="chooseVideo">
                     <ChooseVideo></ChooseVideo>
                 </div>
             </div>

@@ -11,6 +11,7 @@
     color: #262626;
     font-weight: 600;
     font-family: sans-serif;
+
 }
 .infoHead p{
     width: 400px;
@@ -19,6 +20,7 @@
     font-size: 18px;
     font-weight: 400;
     color: #111;
+    padding: 10px;
     
 }
 
@@ -38,6 +40,7 @@
 }
 .optionsHead{
     display: inline-flex;
+   
 
 }
 .iconIs{
@@ -49,12 +52,14 @@
    right: 12em;
    bottom: 1em;
    position: relative;
+  
 }
 .shortDescription h5{
     font-size: 21px;
     color: #262626;
     font-family: serif;
     font-weight: 700;
+    width: 400px;
 }
 .shortDescription span
 {
