@@ -5,5 +5,15 @@
 }
 .heroVideo{
     width: 550px;
-    height: 450px;
+    height: 460px;
+}
+
+.videoSet{
+    margin-top: 10px;
+}
+
+.pulseVideo{
+   align-items: center;
+   justify-content: center;
+   position: relative;
 }
