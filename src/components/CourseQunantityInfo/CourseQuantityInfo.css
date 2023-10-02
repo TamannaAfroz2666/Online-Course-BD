@@ -14,3 +14,29 @@
     background-size: cover;
 
 }
+.quantityHead{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.passedGraduates{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.passedGraduates h2{
+    font-size: 35px;
+    color: #fff;
+    font-family: serif;
+    text-transform: capitalize;
+    padding-left: 30px;
+}
+.passedGraduates span{
+    color: #ffffffd2;
+    font-size: 20px;
+    font-family: serif;
+    font-style: normal;
+
+}
