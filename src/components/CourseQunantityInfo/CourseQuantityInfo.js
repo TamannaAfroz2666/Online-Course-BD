@@ -17,7 +17,7 @@ const CourseQuantityInfo = () => {
 
                 </div>
                 <div className="qualifiedStaff">
-                    <h2>256</h2>
+                    <h2>2561</h2>
                     <span>Qualified Staff</span>
 
                 </div>
