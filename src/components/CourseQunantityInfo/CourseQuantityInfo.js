@@ -11,17 +11,17 @@ const CourseQuantityInfo = () => {
                     <span>Passed Graduates</span>
 
                 </div>
-                <div className="coursePublished">
-                    <h2>256 <span> <AiOutlinePlus /> </span></h2>
+                <div className="passedGraduates">
+                    <h2>256 <span> <AiOutlinePlus className='plusIcon' /> </span></h2>
                     <span>Courses Published</span>
 
                 </div>
-                <div className="qualifiedStaff">
+                <div className="passedGraduates">
                     <h2>2561</h2>
                     <span>Qualified Staff</span>
 
                 </div>
-                <div className="countryReached">
+                <div className="passedGraduates">
                     <h2>100</h2>
                     <span> Country Reached</span>
 
