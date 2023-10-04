@@ -63,6 +63,15 @@
     font-family: serif;
     text-transform: capitalize;
 }
+.addressHead{
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+    color: #4e4949dc;
+    font-weight: 600;
+    font-size: 18px;
+
+}
 .eventImage img{
     width: 60px;
     height: 40px;
