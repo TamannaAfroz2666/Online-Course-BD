@@ -32,7 +32,6 @@ const EventInfo = () => {
                             </div>
                             <div className="btnRegister">
                             <button type='button'>Register</button>
-
                             </div>
                            
                         </div>
@@ -44,9 +43,11 @@ const EventInfo = () => {
                     </div>
 
                 </div>
-
-
+                <div className="lineHorizontal">
+                    <span> <hr size={2} /> </span>
+                </div>
             </div>
+            {/* <h1>ge</h1> */}
 
         </div>
     );

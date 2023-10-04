@@ -31,7 +31,8 @@
 }
 .eventDetails{
     display: flex;
-    gap: 80px;
+    /* gap: 80px; */
+    justify-content: space-between;
     margin-top: 80px;
 }
 .upcomingEvent{
@@ -90,6 +91,9 @@
 
 }
 .eventImage img{
-    width: 60px;
-    height: 40px;
+    width: 200px;
+    height: 120px;
+}
+.lineHorizontal{
+    margin-top: 20px;
 }
