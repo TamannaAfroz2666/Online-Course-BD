@@ -29,7 +29,15 @@
 .horizontalEventInfo .secondInfo{
     width: 60px;
 }
-
+.eventDetails{
+    display: flex;
+    gap: 80px;
+    margin-top: 60px;
+}
+.upcomingEvent{
+    display: flex;
+    gap: 80px;
+}
 .eventImage img{
     width: 60px;
     height: 40px;
