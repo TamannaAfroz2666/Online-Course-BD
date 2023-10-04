@@ -25,6 +25,7 @@ const Registration = () => {
 
 
             </div>
+            <h1>jj</h1>
 
         </div>
 
