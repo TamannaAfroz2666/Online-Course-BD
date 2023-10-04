@@ -1,6 +1,7 @@
 import React from 'react';
 import './EventInfo.css';
 import { LuClock9 } from "react-icons/lu";
+import { IoLocationSharp } from "react-icons/io5";
 
 const EventInfo = () => {
     return (
@@ -24,6 +25,9 @@ const EventInfo = () => {
                         <div className="addressHead">
                             <div className="timing">
                                 <p><span> <LuClock9 /> </span>8:00 am - 5:00 pm</p>
+                            </div>
+                            <div className="buildingAddress">
+                                <p><span> <IoLocationSharp /> </span> London city, wclb uk </p>
                             </div>
                         </div>
                     </div>
