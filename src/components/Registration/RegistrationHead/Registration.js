@@ -8,13 +8,16 @@ const Registration = () => {
             <div className='registration'>
                 <div className="registrationHead">
                     <div className="registrationPage">
-                        <h1>Register Now</h1>
-                        <p>Create your account and browse thousand of courses !!</p>
+                        <div className="registrationHeader">
+                            <h1>Register Now</h1>
+                            <p>Create your account and browse thousand of courses !!</p>
+
+                        </div>
+
 
                     </div>
                     <div className="registrationImage">
                         <img src={image} alt="not found" />
-
 
                     </div>
                 </div>

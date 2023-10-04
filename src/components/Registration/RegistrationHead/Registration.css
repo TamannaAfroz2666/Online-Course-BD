@@ -15,17 +15,25 @@
     display: flex;
     justify-content: space-between;
   
-  
 }
-/* .registrationPage{
-    background-image: url('../../../Assets/Image/Registration/2251.jpg');
+.registrationPage{
+    width: 520px;
+    margin-top: 60px;
 
-} */
+}
+.registrationHeader{
+    height: 140px;
+    background-image: url('../../../Assets/Image/Registration/Book.jpg');
+    border-radius: 25px;
+
+}
 .registrationPage h1{
     font-size: 30px;
 
 }
-
+.registrationImage{
+    margin-top: 80px;
+}
 .registrationImage img{
     width: 400px;
     height: 400px;
