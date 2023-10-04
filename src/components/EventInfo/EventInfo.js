@@ -24,12 +24,17 @@ const EventInfo = () => {
                             <h2>Call for applications for the 2018 Letten Prize</h2>
                             <div className="addressHead">
                                 <div className="timing">
-                                    <p><span> <LuClock9 /> </span>8:00 am - 5:00 pm</p>
+                                    <p><span> <LuClock9 size={14} /> </span>8:00 am - 5:00 pm</p>
                                 </div>
                                 <div className="buildingAddress">
-                                    <p><span> <IoLocationSharp /> </span> London city, wclb uk </p>
+                                    <p><span> <IoLocationSharp  size={14}/> </span> London city, wclb uk </p>
                                 </div>
                             </div>
+                            <div className="btnRegister">
+                            <button type='button'>Register</button>
+
+                            </div>
+                           
                         </div>
 
                     </div>
