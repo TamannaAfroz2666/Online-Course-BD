@@ -2,6 +2,7 @@ import React from 'react';
 import './EventInfo.css';
 import { LuClock9 } from "react-icons/lu";
 import { IoLocationSharp } from "react-icons/io5";
+import image1 from '../../Assets/Image/EventPic/Book.jpg'
 
 const EventInfo = () => {
     return (
@@ -34,7 +35,8 @@ const EventInfo = () => {
 
                     </div>
                     <div className="eventImage">
-                        
+                        <img src={image1} alt="" />
+
                     </div>
 
                 </div>
