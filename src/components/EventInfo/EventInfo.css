@@ -36,7 +36,7 @@
 }
 .upcomingEvent{
     display: flex;
-    gap: 80px;
+    gap: 30px;
 }
 .calender .date{
     padding: 10px 30px;
@@ -56,6 +56,12 @@
     position: relative;
     text-align: center;
 
+}
+.addressInfo h2{
+    font-size: 22px;
+    color: #0e0d0de0;
+    font-family: serif;
+    text-transform: capitalize;
 }
 .eventImage img{
     width: 60px;

@@ -19,7 +19,6 @@ const EventInfo = () => {
                         <div className="calender">
                             <p className='date'>02</p>
                             <p>March</p>
-
                         </div>
                         <div className="addressInfo">
                             <h2>Call for applications for the 2018 Letten Prize</h2>
