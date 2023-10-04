@@ -47,7 +47,7 @@ const EventInfo = () => {
                     <span> <hr size={2} /> </span>
                 </div>
             </div>
-            {/* <h1>ge</h1> */}
+         
 
         </div>
     );
