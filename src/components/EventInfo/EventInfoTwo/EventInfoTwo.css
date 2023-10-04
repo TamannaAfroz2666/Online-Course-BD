@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+ .eventInfo{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.eventDetails{
+    display: flex;
+    
+    justify-content: space-between;
+    /* margin-top: 80px; */
+}
+.upcomingEvent{
+    display: flex;
+    gap: 30px;
+}
+.calender .date{
+    padding: 10px 30px;
+    background-color: #ef5f5f;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
+
+.calender p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #111111;
+    padding: 10px 10px;
+    bottom: 20px;
+    position: relative;
+    text-align: center;
+
+}
+.addressInfo{
+    bottom: 1em;
+    position: relative;
+}
+.addressInfo h2{
+    font-size: 22px;
+    color: #0e0d0de0;
+    font-family: serif;
+    text-transform: capitalize;
+}
+.addressHead{
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+    color: #4e4949dc;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+.addressHead p span{
+    width: 5px;
+}
+.btnRegister button{
+    padding: 10px 20px;
+    border: 0;
+    margin-top: 15px;
+    background-color: #ef5f5f;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+
+}
+.eventImage img{
+    width: 200px;
+    height: 120px;
+}
+.lineHorizontal{
+    margin-top: 20px;
+}
