@@ -22,15 +22,31 @@
 
 }
 .registrationHeader{
-    height: 140px;
+    height: 150px;
     background-image: url('../../../Assets/Image/Registration/Book.jpg');
     border-radius: 25px;
+    /* background-color: #f1715a; */
 
 }
-.registrationPage h1{
-    font-size: 30px;
+.registrationHeader h1{
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: serif;
+    padding-top: 20px;
 
 }
+.registrationHeader p{
+    color: #fff;
+    font-size: 20px;
+    font-family: serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
 .registrationImage{
     margin-top: 80px;
 }

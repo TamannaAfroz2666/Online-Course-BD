@@ -10,7 +10,8 @@ const Registration = () => {
                     <div className="registrationPage">
                         <div className="registrationHeader">
                             <h1>Register Now</h1>
-                            <p>Create your account and browse thousand of courses !!</p>
+                            <p>Create your account and browse <br />
+                            thousand of courses !!</p>
 
                         </div>
 
