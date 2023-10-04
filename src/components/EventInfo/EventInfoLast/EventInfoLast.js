@@ -36,9 +36,7 @@ const EventInfoLast = () => {
             </div>
 
         </div>
-        <div className="lineHorizontal">
-            <span> <hr size={2} /> </span>
-        </div>
+     
     </>
 
     );
