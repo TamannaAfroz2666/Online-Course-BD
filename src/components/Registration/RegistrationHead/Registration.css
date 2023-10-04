@@ -3,7 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
-.registration{
-    margin-top: 90px;
+.registrationMain{
     background-color: rgba(233, 224, 224, 0.712);
+    margin-top: 90px;
+}
+.registration{
+    width: 80%;
+    margin: auto;  
+}
+.registrationHead{
+    display: flex;
+    justify-content: space-between;
+  
+  
+}
+/* .registrationPage{
+    background-image: url('../../../Assets/Image/Registration/2251.jpg');
+
+} */
+.registrationPage h1{
+    font-size: 30px;
+
+}
+
+.registrationImage img{
+    width: 400px;
+    height: 400px;
 }

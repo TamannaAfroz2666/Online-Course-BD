@@ -1,21 +1,29 @@
 import React from 'react';
 import './Registration.css';
+import image from '../../../Assets/Image/Registration/FemaleName.jpg'
 
 const Registration = () => {
     return (
-        <div className='registration'>
-            <div className="registrationHead">
-                <div className="registrationPage">
-                    <h1>hello</h1>
+        <div className="registrationMain">
+            <div className='registration'>
+                <div className="registrationHead">
+                    <div className="registrationPage">
+                        <h1>Register Now</h1>
+                        <p>Create your account and browse thousand of courses !!</p>
 
-                </div>
-                <div className="registrationImage">
+                    </div>
+                    <div className="registrationImage">
+                        <img src={image} alt="not found" />
 
+
+                    </div>
                 </div>
+
+
             </div>
 
-
         </div>
+
     );
 };
 
