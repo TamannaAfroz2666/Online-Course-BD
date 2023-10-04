@@ -12,11 +12,11 @@ const EventInfoTwo = () => {
             <div className="eventDetails">
                 <div className="upcomingEvent">
                     <div className="calender">
-                        <p className='date'>02</p>
-                        <p>March</p>
+                        <p className='date'>17</p>
+                        <p>May</p>
                     </div>
                     <div className="addressInfo">
-                        <h2>Call for applications for the 2018 Letten Prize</h2>
+                        <h2>TWAS-COMSTECH Joints Research Grants-2018</h2>
                         <div className="addressHead">
                             <div className="timing">
                                 <p><span> <LuClock9 size={14} /> </span>8:00 am - 5:00 pm</p>
