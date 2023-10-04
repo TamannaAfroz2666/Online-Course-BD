@@ -1,9 +1,31 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 .eventInfo{
     width: 80%;
     margin: auto;
+    
+}
+.eventInfoMain h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: serif;
+    color: #111111;
+    margin-top: 70px;
+    text-transform: capitalize;
+    font-weight: 600; 
+    
+}
+.horizontalEventInfo{
+    margin: 10px 10px;
+    display: inline-flex;
+    gap: 5px;
+}
+.horizontalEventInfo .firstInfo{
+    width: 5px;
+}
+.horizontalEventInfo .secondInfo{
+    width: 60px;
 }

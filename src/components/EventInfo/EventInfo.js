@@ -6,10 +6,10 @@ const EventInfo = () => {
         <div className='eventInfo'>
             <div className="eventInfoMain">
                 <h1>Upcoming Event</h1>
-                <div className="horizontal">
-                    <hr color='orange' size='4' className='first' />
-                    <hr color='orange' size='4' className='second' />
-                    <hr color='orange' size='4' className='first' />
+                <div className="horizontalEventInfo">
+                    <hr color='orange' size='4' className='firstInfo' />
+                    <hr color='orange' size='4' className='secondInfo' />
+                    <hr color='orange' size='4' className='firstInfo' />
                 </div>
 
                 <div className="upcomingEvent">
