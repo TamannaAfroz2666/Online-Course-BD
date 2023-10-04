@@ -3,11 +3,7 @@
     padding: 0;
     /* box-sizing: border-box; */
 }
- .eventInfo{
-    width: 80%;
-    margin: auto;
-    
-}
+
 
 .eventDetails{
     display: flex;
