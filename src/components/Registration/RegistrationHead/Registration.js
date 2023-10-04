@@ -12,6 +12,9 @@ const Registration = () => {
                             <h1>Register Now</h1>
                             <p>Create your account and browse <br />
                             thousand of courses !!</p>
+                        </div>
+                        <div className="inputFields">
+                            <input type="text" value='name' placeholder='your name' />
 
                         </div>
 
