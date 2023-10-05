@@ -6,6 +6,7 @@ import ChooseUs from '../ChooseUs/ChooseUs';
 import CourseQuantityInfo from '../CourseQunantityInfo/CourseQuantityInfo';
 import EventInfo from '../EventInfo/EventInfo';
 import Registration from '../Registration/RegistrationHead/Registration';
+import CourseSupport from '../CourseSupport/CourseSupport';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <CourseQuantityInfo></CourseQuantityInfo>
             <EventInfo></EventInfo>
             <Registration></Registration>
+            <CourseSupport></CourseSupport>
             
           
         </div>

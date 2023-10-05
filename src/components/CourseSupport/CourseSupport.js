@@ -1,34 +1,40 @@
 import React from 'react';
 import './CourseSupport.css';
 import { PiBookDuotone } from "react-icons/pi";
+import { ImFileVideo } from "react-icons/im";
+import { HiSwatch } from "react-icons/hi2";
 
 const CourseSupport = () => {
     return (
-        <div className='courseSupport'>
-            <div className="supportSection">
-                <div className="courseIntegrated">
-                    <span> <PiBookDuotone /> </span>
-                    <h1>Course Integrated</h1>
-                    <p>Contacr Dewaty Feaert</p>
-                </div>
-                <div className="videoSupport">
-                <span> <PiBookDuotone /> </span>
-                    <h1>Course Integrated</h1>
-                    <p>Contacr Dewaty Feaert</p>
+        <div className="support">
+            <div className='courseSupport'>
+                <div className="supportSection">
+                    <div className="courseIntegrated">
+                        <span> <PiBookDuotone /> </span>
+                        <h1>Course Integrated</h1>
+                        <p>Contacr Dewaty Feaert</p>
+                    </div>
+                    <div className="videoSupport">
+                        <span> <ImFileVideo /></span>
+                        <h1>Video Supported</h1>
+                        <p>Contacr Dewaty Feaert</p>
 
-                </div>
-                <div className="cleanSupport">
-                <span> <PiBookDuotone /> </span>
-                    <h1>Course Integrated</h1>
-                    <p>Contacr Dewaty Feaert</p>
+                    </div>
+                    <div className="cleanSupport">
+                        <span> <HiSwatch /> </span>
+                        <h1>Clean Layout</h1>
+                        <p>Contacr Dewaty Feaert</p>
+
+                    </div>
+
 
                 </div>
 
 
             </div>
 
-
         </div>
+
     );
 };
 

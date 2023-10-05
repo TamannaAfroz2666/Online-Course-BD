@@ -1,10 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
-.courseSupport{
-    margin-top: 60px;
+.support{
+    background-color: rgb(71, 192, 192);
+    bottom: 10px;
+    position: relative;
 }
 .supportSection{
     display: flex;
