@@ -30,6 +30,11 @@
     font-weight: 600;
     text-transform: capitalize;
 }
+.courseIntegrated p{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
 .videoSupport{
     width: 450px;
     height: 350px;
