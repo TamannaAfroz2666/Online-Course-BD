@@ -62,3 +62,17 @@
     padding: 20px 20px;
     background-color: #ef5f5f;
 }
+.supportSection h1{
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+.supportSection p{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+
+}
