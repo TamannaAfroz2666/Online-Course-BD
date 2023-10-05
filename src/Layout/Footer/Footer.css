@@ -14,3 +14,15 @@
     background-size: cover;
     
  }
+
+ .footerHead h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 3em;
+    text-shadow: 1px 1px #d3c9c9;
+    
+ }
