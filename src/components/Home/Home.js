@@ -7,7 +7,7 @@ import CourseQuantityInfo from '../CourseQunantityInfo/CourseQuantityInfo';
 import EventInfo from '../EventInfo/EventInfo';
 import Registration from '../Registration/RegistrationHead/Registration';
 import CourseSupport from '../CourseSupport/CourseSupport';
-import InstructionPage from '../InstrucctionPage/InstructionPage';
+// import InstructionPage from '../InstrucctionPage/InstructionPage';
 
 const Home = () => {
     return (
@@ -19,7 +19,7 @@ const Home = () => {
             <EventInfo></EventInfo>
             <Registration></Registration>
             <CourseSupport></CourseSupport>
-            <InstructionPage></InstructionPage>
+            {/* <InstructionPage></InstructionPage> */}
             
           
         </div>
