@@ -24,10 +24,19 @@
     width: 5px;
     /* color: red; */
 }
-.horizontalInstruction hr{
-    color: red;
-}
 .secondInstruction{
     width: 60px;
     
+}
+.instructionHead p{
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 18px;
+    color: #222121b6;
+    font-family: serif;
+    font-weight: 500;
+
+
+
+
 }
