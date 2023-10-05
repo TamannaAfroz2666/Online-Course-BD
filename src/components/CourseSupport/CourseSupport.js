@@ -15,13 +15,13 @@ const CourseSupport = () => {
                         <p>Contacr Dewaty Feaert</p>
                     </div>
                     <div className="videoSupport">
-                        <span> <ImFileVideo /></span>
+                        <span> <ImFileVideo size={90} className='bookIcon'/></span>
                         <h1>Video Supported</h1>
                         <p>Contacr Dewaty Feaert</p>
 
                     </div>
                     <div className="cleanSupport">
-                        <span> <HiSwatch /> </span>
+                        <span> <HiSwatch size={90} className='bookIcon'/> </span>
                         <h1>Clean Layout</h1>
                         <p>Contacr Dewaty Feaert</p>
 
