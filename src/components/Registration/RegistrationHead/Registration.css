@@ -59,9 +59,16 @@
     box-shadow: 0 -10px rgba(245, 245, 245, 0.897) inset;
     background-color: #fff;
     
-    
 }
 
+.inputFields ::placeholder{
+    padding: 4px 10px;
+    font-size: 15px;
+    color: #16151594;
+    font-weight: 600;
+    bottom: 5px;
+    position: relative;
+}
 
 .registrationImage{
     margin-top: 80px;
