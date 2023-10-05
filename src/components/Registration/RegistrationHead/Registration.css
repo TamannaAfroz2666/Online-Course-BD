@@ -71,6 +71,19 @@
     font-weight: 600;
    
 }
+.inputFields button{
+    width: 460px;
+    height: 55px;
+    margin-left: 1em;
+    border: 0;
+    background-color: #181717e1;
+    color: #ffffffea;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: serif;
+    text-transform: uppercase;
+
+}
 
 .registrationImage{
     margin-top: 80px;

@@ -25,6 +25,9 @@ const Registration = () => {
                         <div className="inputFields">
                             <input type="password" value='' name='password' placeholder='Choose Password' autoComplete='off' />
                         </div>
+                        <div className="inputFields">
+                            <button type='button' >Sing Up Now!</button>
+                        </div>
 
 
                     </div>
