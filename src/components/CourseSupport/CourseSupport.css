@@ -11,3 +11,23 @@
 .supportSection{
     display: flex;
 }
+.courseIntegrated{
+    width: 450px;
+    height: 350px;
+    padding: 20px 20px;
+    background-color: #fb4;
+}
+.videoSupport{
+    width: 450px;
+    height: 350px;
+    padding: 20px 20px;
+    background-color: #2bcc70;
+
+}
+.cleanSupport{
+    width: 450px;
+    height: 350px;
+    padding: 20px 20px;
+    background-color: #ef5f5f;
+
+}
