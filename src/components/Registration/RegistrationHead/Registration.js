@@ -14,7 +14,7 @@ const Registration = () => {
                             thousand of courses !!</p>
                         </div>
                         <div className="inputFields">
-                            <input type="text" value='name' placeholder='your name' />
+                            <input type="text" value='' placeholder='your name' />
 
                         </div>
 
