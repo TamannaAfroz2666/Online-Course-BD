@@ -26,3 +26,19 @@
     text-shadow: 1px 1px #d3c9c9;
     
  }
+
+ .groupAll{
+    margin-top: 50px;
+    margin-left: 22em;
+    display: flex;
+    gap: 30px;
+ }
+ .groupAll a{
+    text-decoration: none;
+    color: #111;
+    padding: 10px 20px;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+
+ }
