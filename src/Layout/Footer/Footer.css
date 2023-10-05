@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
  }
+ .footer{
+    margin-top: 80px;
+ }
+ .footerHead{
+    height: 400px;
+    background-image: url('../../Assets/Image/Footer/Footer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ }
