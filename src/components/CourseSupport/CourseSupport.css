@@ -21,7 +21,14 @@
 .bookIcon{
     color: #fff;
     margin-top: 4em;
-    margin-left: 8em;
+    margin-left: 9em;
+}
+.courseIntegrated h1{
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
 }
 .videoSupport{
     width: 450px;
