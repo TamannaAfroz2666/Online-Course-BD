@@ -10,18 +10,18 @@ const CourseSupport = () => {
             <div className='courseSupport'>
                 <div className="supportSection">
                     <div className="courseIntegrated">
-                        <span> <PiBookDuotone size={90} className='bookIcon'/> </span>
+                        <span> <PiBookDuotone size={90} className='bookIconSupport'/> </span>
                         <h1>Course Integrated</h1>
                         <p>Contacr Dewaty Feaert</p>
                     </div>
                     <div className="videoSupport">
-                        <span> <ImFileVideo size={90} className='bookIcon'/></span>
+                        <span> <ImFileVideo size={90} className='bookIconSupport'/></span>
                         <h1>Video Supported</h1>
                         <p>Contacr Dewaty Feaert</p>
 
                     </div>
                     <div className="cleanSupport">
-                        <span> <HiSwatch size={90} className='bookIcon'/> </span>
+                        <span> <HiSwatch size={90} className='bookIconSupport'/> </span>
                         <h1>Clean Layout</h1>
                         <p>Contacr Dewaty Feaert</p>
 
