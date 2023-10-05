@@ -84,6 +84,12 @@
     text-transform: uppercase;
 
 }
+.inputFields:hover button{
+    background-color: #ef5f5f;
+}
+.inputFields:active button{
+    background-color: #28a745;
+}
 
 .registrationImage{
     margin-top: 80px;
