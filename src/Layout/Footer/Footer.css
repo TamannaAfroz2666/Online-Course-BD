@@ -42,3 +42,18 @@
     font-size: 20px;
 
  }
+ .documentation:hover a {
+    background-color: #1817173a;
+    border: 1px solid white;
+    color: #fff;
+ }
+ .tutorial:hover a {
+    background-color: #1817173a;
+    border: 1px solid white;
+    color: #fff;
+ }
+ .purchaseNow:hover a {
+    background-color: #1817173a;
+    border: 1px solid white;
+    color: #fff;
+ }
