@@ -10,7 +10,7 @@ const CourseSupport = () => {
             <div className='courseSupport'>
                 <div className="supportSection">
                     <div className="courseIntegrated">
-                        <span> <PiBookDuotone /> </span>
+                        <span> <PiBookDuotone size={90} className='bookIcon'/> </span>
                         <h1>Course Integrated</h1>
                         <p>Contacr Dewaty Feaert</p>
                     </div>
