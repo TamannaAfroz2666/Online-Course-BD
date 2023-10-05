@@ -15,7 +15,15 @@ const Registration = () => {
                         </div>
                         <div className="inputFields">
                             <input type="text" value='' name='name' placeholder='Your Name' autoComplete='off' />
-
+                        </div>
+                        <div className="inputFields">
+                            <input type="email" value='' name='email' placeholder='Email Address' autoComplete='off' />
+                        </div>
+                        <div className="inputFields">
+                            <input type="text" value='' name='phone' placeholder='Your Phone' autoComplete='off' />
+                        </div>
+                        <div className="inputFields">
+                            <input type="password" value='' name='password' placeholder='Choose Password' autoComplete='off' />
                         </div>
 
 
