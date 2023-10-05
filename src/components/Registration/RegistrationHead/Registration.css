@@ -18,7 +18,7 @@
 }
 .registrationPage{
     width: 500px;
-    height: 600px;
+    height: 550px;
     margin-top: 60px;
     background-color: aliceblue;
     box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
@@ -96,5 +96,5 @@
 }
 .registrationImage img{
     width: 450px;
-    height: 580px;
+    height: 530px;
 }
