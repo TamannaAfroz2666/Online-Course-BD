@@ -6,6 +6,11 @@ const InstructionPage = () => {
         <div className='Instruction'>
             <div className="instructionHead">
                 <h1>Our Instruction</h1>
+                <div className="horizontalInstruction">
+                    <span><hr className='firstInstruction' size ={4} color='orange'  /> </span>
+                    <span><hr size ={4} color='orange' className='secondInstruction'/></span>
+                    <span> <hr size ={4} color='orange' className='firstInstruction'/> </span>
+                </div>
             </div>
 
             

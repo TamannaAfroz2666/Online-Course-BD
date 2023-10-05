@@ -14,3 +14,20 @@
     text-transform: capitalize;
     font-weight: 600;
 }
+.horizontalInstruction{
+    display: flex;
+    gap: 2px;
+   margin-left: 39em;
+   margin-top: 20px;
+}
+.firstInstruction hr{
+    width: 5px;
+    /* color: red; */
+}
+.horizontalInstruction hr{
+    color: red;
+}
+.secondInstruction{
+    width: 60px;
+    
+}
