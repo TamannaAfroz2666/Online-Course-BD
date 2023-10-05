@@ -12,7 +12,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
  }
 
  .footerHead h1{
@@ -24,7 +23,6 @@
     text-align: center;
     padding-top: 3em;
     text-shadow: 1px 1px #d3c9c9;
-    
  }
 
  .groupAll{
@@ -40,7 +38,6 @@
     background-color: #fff;
     font-weight: 600;
     font-size: 20px;
-
  }
  .documentation:hover a {
     background-color: #1817173a;
